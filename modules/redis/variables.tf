@@ -5,5 +5,8 @@ variable "network_name" {
 
 variable "container_name" {
   type    = string
-  default = "localredis"
+}
+
+variable "project_name" {
+  type        = string
 }

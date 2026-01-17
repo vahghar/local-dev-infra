@@ -1,6 +1,5 @@
 variable "container_name" {
     type = string
-    default = "bluegatorade"
 }
 
 variable "network_name" {
@@ -46,4 +45,8 @@ variable "redis_host" {
 variable "redis_port" {
   type        = number
   description = "Redis port"
+}
+
+variable "project_name" {
+  type        = string
 }

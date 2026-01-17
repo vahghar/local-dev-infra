@@ -1,12 +1,16 @@
 variable "db_name" {
-  type        = string
+  type = string
 }
 
 variable "db_user" {
-  type        = string
+  type = string
 }
 
 variable "db_password" {
-  type        = string
-  sensitive   = true
+  type      = string
+  sensitive = true
+}
+
+variable "project_name" {
+  type = string
 }

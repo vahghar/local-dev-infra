@@ -1,6 +1,5 @@
 variable "container_name" {
     type = string
-    default = "postgres"
 }
 
 variable "network_name" {
@@ -22,4 +21,8 @@ variable "db_password" {
   type        = string
   description = "Postgres password"
   sensitive   = true
+}
+
+variable "project_name" {
+  type        = string
 }
